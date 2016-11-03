@@ -28,10 +28,8 @@ is at the end of the source arrays.
 So working from the back we compare the values and decide which value to transfer
 to our resulting array.
 
-<code>
-  A: [1, 3, 5, 7, 9]
-  B: [2, 4, 6, 8, 10]
-</code>
+    A: [1, 3, 5, 7, 9]
+    B: [2, 4, 6, 8, 10]
 
 In `JavaScript` we can simply remove(`pop`) the elements from the source arrays
 and then add them to the result(`push`).
@@ -55,3 +53,8 @@ Testing
 The testing method takes a title and two source arrays then compares it by running
 it against the native concatenation and sort of an array and the MergeAndReorder
 function.
+
+Files
+----------------
+* `index.html`: Algorithm test written in `Javascript`.
+* `Program.cs`: Algorithm test written in `C#`.
